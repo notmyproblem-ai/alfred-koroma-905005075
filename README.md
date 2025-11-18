@@ -27,15 +27,3 @@
 
 <img width="384" height="240" alt="image" src="https://github.com/user-attachments/assets/f6d06dfe-ee73-49e1-8cf2-559f7c1d351b" />
 
-# Web Design Assignment 2
-
-## Home Page 
-
-## Players Page
-
-## Matches Page
-
-## About Us Page
-
-## Contact Us Page
-
