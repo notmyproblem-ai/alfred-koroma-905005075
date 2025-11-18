@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixtures - Sierra Star Football Agency</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+        }
+
+        .fixtures-section {
+            padding: 80px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .fixtures-section h2 {
+            color: #50C878;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 50px;
+        }
+
+        .competition {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px) saturate(180%);
+            -webkit-backdrop-filter: blur(10px) saturate(180%);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 30px;
+            margin-bottom: 40px;
+        }
+
+        .competition h3 {
+            color: #50C878;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        .fixtures-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .fixtures-table th,
+        .fixtures-table td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .fixtures-table th {
+            font-size: 18px;
+            color: #50C878;
+        }
+
+        .team-name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .team-name i {
+            color: #50C878;
+        }
+
+        @media(max-width: 768px) {
+
+            .fixtures-table th,
+            .fixtures-table td {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            .competition h3 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo"
+            style="position:absolute; left:40px; color:white; font-size:22px; font-weight:700; letter-spacing:1px;">
+            Sierra Star</div>
+         <a href="./index.html">Home</a>
+            <a href="./about.html" >About</a>
+            <a href="./players.html">Players</a>
+            <a href="./matches.html" class="active">Matches</a>
+            <a href="./contactUs.html">Contact Us</a>
+    </nav>
+
+    <section class="fixtures-section">
+        <h2>Upcoming Fixtures</h2>
+
+        <div class="competition">
+            <h3><i class="fas fa-trophy"></i> Premier League</h3>
+            <table class="fixtures-table">
+                <tr>
+                    <th>Match</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team A vs Team B</td>
+                    <td>20 Nov 2025</td>
+                    <td>16:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team C vs Team D</td>
+                    <td>21 Nov 2025</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team E vs Team F</td>
+                    <td>22 Nov 2025</td>
+                    <td>14:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team G vs Team H</td>
+                    <td>23 Nov 2025</td>
+                    <td>17:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team I vs Team J</td>
+                    <td>24 Nov 2025</td>
+                    <td>19:00</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="competition">
+            <h3><i class="fas fa-trophy"></i> Champions Cup</h3>
+            <table class="fixtures-table">
+                <tr>
+                    <th>Match</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team K vs Team L</td>
+                    <td>25 Nov 2025</td>
+                    <td>16:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team M vs Team N</td>
+                    <td>26 Nov 2025</td>
+                    <td>18:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team O vs Team P</td>
+                    <td>27 Nov 2025</td>
+                    <td>14:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team Q vs Team R</td>
+                    <td>28 Nov 2025</td>
+                    <td>17:00</td>
+                </tr>
+                <tr>
+                    <td class="team-name"><i class="fas fa-futbol"></i> Team S vs Team T</td>
+                    <td>29 Nov 2025</td>
+                    <td>19:00</td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+
+
+    <footer class="footer">
+        <p class="fText">2025 Sierra Star Football Agency © All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
