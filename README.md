@@ -26,3 +26,16 @@
 <img width="468" height="288" alt="image" src="https://github.com/user-attachments/assets/5fcadcff-d71d-4850-bae6-2b017bb3cdba" />
 
 <img width="384" height="240" alt="image" src="https://github.com/user-attachments/assets/f6d06dfe-ee73-49e1-8cf2-559f7c1d351b" />
+
+# Web Design Assignment 2
+
+## Home Page 
+
+## Players Page
+
+## Matches Page
+
+## About Us Page
+
+## Contact Us Page
+
